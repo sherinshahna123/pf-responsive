@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>personal phortfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">S</span> SHAHNA</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="./src/photo_2024-11-25_09-21-02.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>SHAHNA SHERIN<br />WEB<br />DEVELOPER</h1>
+        </div>
+        <p class="section__description">
+            To achieve my dream, I start by learning the tools of the trade—programming languages. Each language adds a new skill, enablie to solve problems, create projects, and understand the logic behind software and web development.
+        </p>
+       
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+      <img src="./src/photo_2024-11-25_09-21-02.jpg" alt="about__img">
+      </div>
+      <div class="about__content">
+        <h2 class="section__header"> About Me</h2>
+        <p class="section__description">
+            I am Coming from a History background, My curiosity and willingness to learn have led you to explore programming and web development.this traits are crucial for a successful software engineer and    
+            The curiosity and dream about technology and web development led me to learn programing languages and to be a software engineer.
+        </p>
+       
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">My Best Services</h2>
+      <div class="service__grid">
+        <div class="service__card">
+         
+          <h4>Website Design</h4>
+          <p>
+           Confidently i can create a Front-end and design any webpage that anyone want.
+          </p>
+        </div>
+        <div class="service__card">
+
+          <h4>Web Development</h4>
+          <p>
+          i can build any website as a front end developer
+          </p>
+        </div>
+        <div class="service__card">
+          
+          <h4>Backend Development</h4>
+          <p>
+          i will create and manage a Backend of a website
+          </p>
+        </div>
+       
+      </div>
+    </section>
+    <section class="resume-title,resume-item" id="Education">
+
+        <section id="resume" class="resume section">
+            <div class="container section-title" data-aos="fade-up">
+              </div>
+      <div class="container">
+      <div class="row">
+      
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="resume-title">Education</h4>
+                  <div class="resume-item">
+                    <h4>Undergraduate</h4>
+                    <ul>
+                    <li>2019-2022</li>
+                    <li>PSMO College,Malalppuram</li>
+                </ul>
+                  </div>
+      
+                  <div class="resume-item">
+                    <h4>Postgraduate</h4>
+                    <ul>
+                    <li>2022-2024</li>
+                    <li>MES Kalladi College.Palakkad</li>
+                </ul>
+                   
+                  </div>
+      
+                </div>
+      
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                  <h4 class="resume-title">Professional Experience</h4>
+                  <div class="resume-item">
+                    <h4>Software Intern</h4>
+                    
+                    <ul>
+                        <li>2024-present</li>
+                      <li>learning full stack development</li>
+                      <li>Completed Two main projects such as E-Comerce website.</li>
+                      <li>Also Handled communication sector.</li>
+                    </ul>
+                  </div>
+                </div>
+      
+            </div>
+    
+          </div>
+    
+        </section>
+
+       <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">My Portfolio</h2>
+      <p class="section__description">
+        Explore a showcase of my diverse projects, demonstrating my skills in
+        web development, design, and beyond. Each project reflects my passion
+        for creating impactful and innovative digital experiences.
+      </p>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="./src/logo.jpg" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="./src/th.jpg" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="./src/logo.webp" alt="portfolio" />
+        </div>
+       
+      </div>
+    </section>
+
+    
+<section id="contact-us" class="form-section">
+  <div class="form-container">
+      <h2 class="form-heading">Lets Connect...</h2>
+      <form id="contactForm" 
+            action="" 
+            target="_self">
+          <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+              <!-- <div class="error" id="messageError"></div> -->
+          </div>
+          <div class="form-button">
+              <button type="submit">Submit</button>
+          </div>
+      </form>
+  </div>
+</section>
+
+
+  <script src="script.js"></script>
+
+  
+  </body>
+</html>
